@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg " style="background-color: white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.webp" width="150px" height="90px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Client</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Trainer</a></li>
+                            <li><a class="dropdown-item" href="#"> Healthy Diet</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">All Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Slider -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/img3.jpg" class="d-block w-100" alt="..." img-fluid>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="hl">Benefit</h5>
+                    <p>It can improve your cardiovascular fitness and lower your risk of heart disease and stroke</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="hl">Benefit</h5>
+                    <p>It can strengthen your muscles and bones and prevent injuries and osteoporosis.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="hl">Benefit</h5>
+                    <p>It can boost your mood and energy levels and reduce stress and anxiety.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="container-fluid">
+        <!-- tagline -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="h3 text-center mt-5 mb-2"> Ubas Gym; Push beyond limits, every rep brings you closer to your strongest
+                    self.</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- features -->
+    <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-md-3  text-center mt-5">
+            <h1> <i class="bi bi-file-code-fill text-success"></i></h1>
+            <h5>Built for Customer</h5>
+            <p>Achieve your fitness goals with expert guidance, state-of-the-art equipment, and a motivating community.
+            </p>
+        </div>
+        <div class="col-md-3 text-center mt-5">
+            <h1> <i class="bi bi-clipboard-fill text-danger"></i></h1>
+            <h5>Built for Customer</h5>
+            <p>Unlock your potential with tailored fitness plans, cutting-edge facilities, and a supportive
+            </p>
+        </div>
+        <div class="col-md-3 text-center mt-5">
+            <h1> <i class="bi bi-calendar2-fill text-primary"></i></h1>
+            <h5>Built for Customer</h5>
+            <p>Transform your fitness journey with expert coaching, modern equipment, and a community
+            </p>
+        </div>
+
+        <hr>
+
+
+        <!-- growth -->
+        <div class="row justify-content-evenly mt-3 pt-5">
+            <div class="col-md-5 pt-3">
+                <img src="images/lal.jpg" class="img-fluid">
+            </div>
+
+            <div class="col-md-5 pt-3">
+                <h5 class="mt-3">Community</h5>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 25%"></div>
+                </div>
+                <h5 class="mt-3">Working hours</h5>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 50%"></div>
+                </div>
+                <h5 class="mt-3">Personal trainers</h5>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning" style="width: 75%"></div>
+                </div>
+                <h5 class="mt-3">High-quality</h5>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 100%"></div>
+                </div>
+                <h5 class="mt-3">Variety</h5>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-primary" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Contact -->
+        <div class="row justify-content-evenly pt-4 pb-2 mt-5" style="background-color: #f1f1f1;">
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Contact Form</h3>
+                <form>
+                    <div class="mb-3 ">
+                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3 ">
+                        <h3 class="mb-4">Contact Form</h3>
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div class="pb-2">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </form>
+
+            </div>
+            <div class="col-md-5 mt-5">
+                <h3>Address</h3>
+                <p>House no 543, Hussainbad <br>
+                    near customer care center <br>
+                    <i class="bi bi-telephone-fill"> 92 7868656</i>
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14477.95970635691!2d67.03167083871786!3d24.881264912801882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e596cd9d475%3A0x2d0e00166766be8a!2sJamia%20Masjid%20New%20Town!5e0!3m2!1sen!2s!4v1729890848824!5m2!1sen!2s"
+                    width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+
+        <!-- faq -->
+        <div class="row justify-content-evenly pt-5 pb-5">
+            <div class="col-md-10">
+                <h3 class="text-center pb-4">FAQ</h3>
+                <div class="accordion accordion-flush border" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Admission
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Complaint
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                                body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Services
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Ubas Gym</h5>
+                <div> Welcome to Ubas Gym– where fitness meets community! Our mission is to help you reach your
+                    health goals with top-notch equipment, expert trainers, and a supportive environment. Join us and
+                    become the strongest version of yourself!</div>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Important Links</h5>
+                <p>
+                    <a href="#" class="link-light text-decoration-none">Home</a><br>
+                    <a href="#" class="link-light text-decoration-none">About Us</a><br>
+                    <a href="#" class="link-light text-decoration-none">Contact Us</a><br>
+                    <a href="#" class="link-light text-decoration-none">Our Team</a><br>
+                    <a href="#" class="link-light text-decoration-none">Our Client</a><br>
+                </p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Contact Us</h5>
+                <p>
+                <p>House no 543, Hussainbad <br>
+                    near customer care center <br>
+                    <i class="bi bi-telephone-fill"></i> 92 7868656
+                </p>
+            </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="row bg-secondary text-white text-center p-">
+            <div class="col-12">
+                <p>code by Warisha - My first Website</p>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- container end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

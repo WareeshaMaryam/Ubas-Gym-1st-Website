@@ -1,0 +1,25 @@
+.navbar-nav .nav-link {
+    color: black !important;
+    font-weight: 700;
+    font-size: 1.13rem;
+}
+
+#carouselExampleDark {
+    max-height: 500px;
+    /* Set your desired height */
+    overflow: hidden;
+    /* Ensures it doesn't overflow */
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-caption {
+    color: white !important;
+}
+.hl{
+    font-size: 2rem !important;
+}
